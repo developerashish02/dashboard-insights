@@ -44,3 +44,13 @@ input {
     padding: 10px 20px;
     border-radius: 2rem;
 }
+
+.login_form_error {
+    color: red;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+.login_form_button:active {
+    border: 2px solid white;
+}
