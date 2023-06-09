@@ -6,7 +6,7 @@ const Header = () => {
     const navigate = useNavigate();
     const handleLogOut = () => {
         window.localStorage.removeItem("token");
-        navigate("/login");
+        navigate("/");
     };
     return (
         <header className="header__container">
