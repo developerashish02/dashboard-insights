@@ -1,0 +1,22 @@
+.login__dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+.login__form {
+    flex: 1;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(to bottom right, #2980b9, #6dd5fa);
+    color: white;
+
+}
+
+.login__background {
+    flex: 1;
+    background: url("../assets/images/login_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

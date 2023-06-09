@@ -1,0 +1,36 @@
+.header__container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header_logo {
+    height: 3rem;
+}
+
+.header_btn {
+    padding: 10px 20px;
+    margin-left: 0.5rem;
+    border-radius: 1.5rem;
+    color: white;
+    background-color: #0079ff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.header_btn:hover {
+    background-color: #0077ff7a;
+}
+
+.header_btn:active {
+    border: 2px solid black;
+}
+
+.dashboard_info {
+    display: flex;
+    padding: 20px;
+}

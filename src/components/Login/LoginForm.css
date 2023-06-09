@@ -1,0 +1,46 @@
+.login_form_container {
+    width: 23rem;
+    border: 1px solid lightgray;
+    padding: 40px 20px;
+    margin: 0 auto;
+    border-radius: 2rem;
+}
+
+.login_form_heding {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.login_form_hed_con {
+    margin: 20px 0;
+}
+
+input {
+    border: none;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.login_form_input {
+    margin-bottom: 1.5rem;
+}
+
+.login_form_button {
+    border: 1px solid gray;
+    background-color: #5138ed;
+    color: white;
+    letter-spacing: 1;
+    cursor: pointer;
+}
+
+.login_form_input>label {
+    margin-bottom: 10px;
+}
+
+.common_style_inputs_or_btn {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 2rem;
+}
