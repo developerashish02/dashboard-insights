@@ -11,7 +11,8 @@ import store from "./store/store";
 const router = createBrowserRouter([
   {
     element: <Login />,
-    path: "/login"
+    path: "/login",
+    index: true
   },
   {
     path: "/",
